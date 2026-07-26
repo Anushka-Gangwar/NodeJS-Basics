@@ -1,17 +1,11 @@
 let name = "Anushka";
 let age = 23;
-let college = "MIT-WPU";
-let city = "Pune";
-let language = "C++";
-let goal = "Software Engineer";
-let favoriteFood = "Pizza";
-let hobby = "dancing" ;
+let cgpa = 7.8;
+let isPlaced = false;
+let skills = ["C++", "JavaScript", "Git"];
 
-console.log("My name is " + name);
-console.log("I am " + age + " years old.");
-console.log("I study at " + college + ".");
-console.log("I live in " + city + ".");
-console.log("I know " + language + ".");
-console.log("My goal is to become a " + goal + ".");
-console.log("My favourite food is "+ favoriteFood);
-console.log("hobby is "+ hobby);
+console.log(name);
+console.log(age);
+console.log(cgpa);
+console.log(isPlaced);
+console.log(skills);
