@@ -1,11 +1,17 @@
-let name = "Anushka";
-let age = 23;
-let cgpa = 7.8;
-let isPlaced = false;
-let skills = ["C++", "JavaScript", "Git"];
+let a = 20;
+let b = 5;
 
-console.log(name);
-console.log(age);
-console.log(cgpa);
-console.log(isPlaced);
-console.log(skills);
+console.log("Addition:", a + b);
+console.log("Subtraction:", a - b);
+console.log("Multiplication:", a * b);
+console.log("Division:", a / b);
+console.log("Remainder:", a % b);
+console.log("cube:", a ** 3);
+
+let age = 20;
+
+if (age >= 18) {
+    console.log("You can vote.");
+} else {
+    console.log("You cannot vote.");
+}
